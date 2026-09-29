@@ -373,7 +373,6 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
   
   // APP BAR
   
-
   Widget _buildAppBar(bool isDark) {
     final textColor =
         isDark ? Colors.white : Colors.black87;
@@ -420,7 +419,6 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
   
   // LABEL
   
-
   Widget _buildLabel(
     String text, {
     bool required = false,
@@ -464,9 +462,8 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
     );
   }
 
-  // ---------------------------------------------------------------------------
+  
   // FIELD DECORATION
-  // ---------------------------------------------------------------------------
 
   InputDecoration _fieldDecoration({
     String? hint,
@@ -553,9 +550,8 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
     );
   }
 
-  // ---------------------------------------------------------------------------
+  
   // TITLE
-  // ---------------------------------------------------------------------------
 
   Widget _buildTitleField(
     Color cardBg,
@@ -587,9 +583,8 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
     );
   }
 
-  // ---------------------------------------------------------------------------
+  
   // AMOUNT
-  // ---------------------------------------------------------------------------
 
   Widget _buildAmountField(
     Color cardBg,
@@ -654,9 +649,8 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
     );
   }
 
-  // ---------------------------------------------------------------------------
+  
   // CATEGORY
-  // ---------------------------------------------------------------------------
 
   Widget _buildCategoryDropdown(
     Color cardBg,
@@ -753,9 +747,8 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
     );
   }
 
-  // ---------------------------------------------------------------------------
+  
   // DATE
-  // ---------------------------------------------------------------------------
 
   Widget _buildDateField(
     Color cardBg,
@@ -803,9 +796,8 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
     );
   }
 
-  // ---------------------------------------------------------------------------
+  
   // NOTE
-  // ---------------------------------------------------------------------------
 
   Widget _buildNoteField(
     Color cardBg,
@@ -831,9 +823,8 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
     );
   }
 
-  // ---------------------------------------------------------------------------
+  
   // SAVE BUTTON
-  // ---------------------------------------------------------------------------
 
   Widget _buildSaveButton() {
     return SizedBox(
@@ -879,9 +870,8 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
     );
   }
 
-  // ---------------------------------------------------------------------------
+  
   // DELETE BUTTON
-  // ---------------------------------------------------------------------------
 
   Widget _buildDeleteButton() {
     return SizedBox(
