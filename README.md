@@ -174,6 +174,10 @@ Run the tests using:
 flutter test
 ```
 
+## APK Download
+
+ [Download Spendza APK – v1.0.0](https://github.com/nisuli09/Spendza-Expenses_Tracker/releases/tag/v1.0.0)
+
 ## Author
 
 **Nisuli Kihansa**
