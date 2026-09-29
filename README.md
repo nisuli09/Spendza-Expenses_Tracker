@@ -145,18 +145,18 @@ AI tools were used as development assistance throughout the project, particularl
 **ChatGPT**
 
 * Debugging Flutter and Dart errors
-* Understanding Firebase configuration and integration
 * Troubleshooting package and dependency issues
 * Improving UI implementation
 * Reviewing and refining code
-* Generating development suggestions and implementation approaches
-* Assisting with test cases and validation
 
 **Claude**
 
 * Generate the initial Flutter UI screens (Expenses, Add/Edit Expense, Reports, Profile, Login, Sign Up) from design mockups/screenshots
 * Debug build and runtime issues (Gradle build waits, emulator boot failures, RAM/compatibility warnings)
-* Diagnose and fix a Firestore permission-denied error by writing development security rules
+
+**GitHub Copilot**
+
+* Assisting with code completion and implementation
 
 AI assistance was used as a development aid, while the application's implementation, integration, testing, and final decisions were carried out by the developer.
 
